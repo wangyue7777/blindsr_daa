@@ -32,7 +32,7 @@ Download [RealSR(V3)](https://github.com/csjcai/RealSR) and directly use the HR/
 
 
 ### 2. Begin to test
-Run `./Eval_IMBD_nn_tt.py` to test on benchmark dataset (one in-domain data and one out-domain data as example and real world data with our pretrained model.
+Run `./Eval_IMBD_nn_tt.py` to test on benchmark dataset (one in-domain data and one out-domain data as example) and real world data with our pretrained model.
 
 If you want to test on your model, please set the `pre_train` as `your_model_pth` in `option_eval_IMBD_nn_tt.py` to load your model.
 
